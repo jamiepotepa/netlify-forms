@@ -52,6 +52,11 @@ const StyledButton = styled.button`
     background: #45a2d4;
     color: white;
     cursor: pointer;
+    transition: background 0.3s;
+
+    &:hover {
+        background: #3b92c1;
+    }
 `;
 
 export default () => (
