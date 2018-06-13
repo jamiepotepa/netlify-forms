@@ -15,7 +15,7 @@ export default () => (
 
                 <label htmlFor="message">Message</label>
                 <textarea name="message" id="message" placeholder="enter your message here" />
-
+                <div data-netlify-recaptcha></div>
                 <button type="submit">Send</button>
 
            </form>
