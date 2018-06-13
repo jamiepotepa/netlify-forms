@@ -3,9 +3,8 @@ import React from 'react';
 export default () => (
     <div>
         <h2>Index route</h2>
-
         <div>
-           <form name="contact-form" data-netlify="true" netlify-honeypot="bot-field" method="POST">
+           <form name="contact" data-netlify="true" netlify-honeypot="bot-field" method="POST">
 
                <label htmlFor="name">Name</label>
                <input type="text" name="name" id="name" placeholder="enter your name here" />
