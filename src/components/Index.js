@@ -6,6 +6,7 @@ export default () => (
         <div>
            <form name="contact" data-netlify="true" netlify-honeypot="bot-field" method="POST">
 
+               <input type="hidden" name="form-name" value="contact" />
                <label htmlFor="name">Name</label>
                <input type="text" name="name" id="name" placeholder="enter your name here" />
 
