@@ -1,6 +1,6 @@
-# React starter with webpack 4
+# Netlify Forms
 
-My newer react starter with webpack4
+Having a little play around with integrating a Netlify form in a simple React app
 
 ### Commands
 npm run dev-server - local dev server.
